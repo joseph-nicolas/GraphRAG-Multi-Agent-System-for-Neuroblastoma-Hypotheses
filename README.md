@@ -38,7 +38,7 @@ HF_TOKEN=your_huggingface_token
 - **Neo4j:** Start the database in the background using `neo4j console`.
 - **Ollama:** Start the local LLM server using `ollama serve` (the project uses `deepseek-r1:1.5b`).
 
-## 3. Pipeline Outputs
+### 3. Pipeline Outputs
 
 If the code runs successfully, it generates the following files in the `data/` folder:
 
