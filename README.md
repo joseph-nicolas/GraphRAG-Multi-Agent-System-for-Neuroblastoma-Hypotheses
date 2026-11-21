@@ -14,6 +14,18 @@ The pipeline runs through five main stages:
 4. **Knowledge Graph (GraphRAG):** Loads the extracted entities, relations, and text chunks into a local Neo4j graph database. 
 5. **Agent Discussion and Evaluation:** Uses `AutoGen` to orchestrate a discussion between three specialist agents (p53 Expert, Neuroblastoma Expert, and Immunotherapy Expert) running on a local DeepSeek model. A tripartite framework evaluates the quality of their responses based on relevance, accuracy, coverage, coherence, and fluency.
 
+### Architecture Diagram
+
+![Pipeline Architecture](assets/pipeline_architecture.png)
+
+## Knowledge Graph Visualization
+
+The extracted biomedical entities and relationships are stored in a Neo4j knowledge graph, providing the factual grounding for the multi-agent hypothesis generation system.
+
+### Sample Neo4j Database
+
+![Neo4j Knowledge Graph](assets/neo4j_sample.png)
+
 ## Setup and Prerequisites
 
 To run the notebook successfully, you need the following:
