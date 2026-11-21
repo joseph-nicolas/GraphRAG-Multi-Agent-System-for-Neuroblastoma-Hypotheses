@@ -16,7 +16,9 @@ The pipeline runs through five main stages:
 
 ### Architecture Diagram
 
-![Pipeline Architecture](assets/pipeline_architecture.png)
+<p align="center">
+  <img src="assets/pipeline_architecture.png" width="350">
+</p>
 
 ## Knowledge Graph Visualization
 
